@@ -30,7 +30,7 @@ Please download the MEG1_MEG_Epoched_Raw_Data MATLAB matrix files from the above
 ## Results
 A sample of filtering a noisy MEG channel:
 
-![pre-processing output](/results/sample_filtering_01_01.png){:height="50%" width="50%"}
+![pre-processing output](/results/sample_filtering_01_01.png){:height="700px" width="400px"}
 
 ```python
 import foobar
