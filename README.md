@@ -30,7 +30,16 @@ Please download the MEG1_MEG_Epoched_Raw_Data MATLAB matrix files from the above
 ## Results
 A sample of filtering a noisy MEG channel:
 
-<img src="/results/sample_filtering_01_01.png" width="100" height="100">
+<img src="/results/sample_filtering_01_01.png" width="500" height="300">
+
+The decoding time series plot. The green line shows the location of the achieved maximum accuracy and the blue one shows the ending of displaying image to individuals which is 500ms here. The SVM classifier accuracy signal is shown in red, however, for better visualization, a moving average version of the signal with a window size of 50, is plotted too in gray:
+
+<img src="/results/decoding_time_series_01_01.png" width="500" height="300">
+
+The time-time decoding plot. a) The main plot. b) A smoothed version of (a) which is obtained by applying a mean filter with a size of 50 to decrease noisy patterns:
+
+<img src="/results/temporal_generalization_01_01.png" width="500" height="300">
+
 
 ```python
 import foobar
