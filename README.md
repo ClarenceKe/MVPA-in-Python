@@ -28,6 +28,8 @@ You can use the dataset provided by Cichy et al. here:
 Please download the MEG1_MEG_Epoched_Raw_Data MATLAB matrix files from the above URL and copy them into "data". Then, run "main.py".
 
 ## Results
+The results achieved for the MEG data of a subject is demonstrated here.
+
 A sample of filtering a noisy MEG channel:
 
 <img src="/results/sample_filtering_01_01.png" width="500" height="300">
@@ -41,18 +43,13 @@ The time-time decoding plot. a) The main plot. b) A smoothed version of (a) whic
 <img src="/results/temporal_generalization_01_01.png" width="500" height="300">
 
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. If you have any question, please send an email:
 
-Please make sure to update tests as appropriate.
+Navid Hasanzadeh: [hasanzadeh.navid@gmail.com](mailto:https://choosealicense.com/licenses/mit/)
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Reference
+
+For more information about the methods and the dataset, read this paper:
+[Resolving object recognition in space and time paper by Cichy et al.](http://userpage.fu-berlin.de/rmcichy/nn_project_page/main.html)
+
