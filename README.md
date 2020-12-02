@@ -44,7 +44,7 @@ The time-time decoding plot. a) The main plot. b) A smoothed version of (a) whic
 
 
 ## Contributing
-Pull requests are welcome. If you have any question, please send an email:
+Pull requests are welcome. If you have any question, please send me an email:
 
 Navid Hasanzadeh: [hasanzadeh.navid@gmail.com](mailto:hasanzadeh.navid@gmail.com)
 
